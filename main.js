@@ -1,9 +1,10 @@
-var epler = 0;
-var pærer = 0;
-var bananer = 0;
+let epler = Math.floor(Math.random() * 1000000);
+var pærer = Math.floor(Math.random() * 1000000);
+var bananer = Math.floor(Math.random() * 1000000);
 
-window.onload = oppstart;
+function antallFrukt(fruktNavn) {
+console.log(epler);
 
-function oppstart() {
-    console.log("Hei!");
+
+    document.getElementById('viseFrukt').innerHTML = fruktNavn;
 }
