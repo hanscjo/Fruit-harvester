@@ -6,12 +6,14 @@ body {
 div {
     font-size: 24px;
     border: 2px solid black;
+    border-radius: 0px 0px 8px 8px;
     box-shadow: 5px 5px;
     margin: 6px;
+    padding: 6px;
     max-width: 500px;
 }
 
-/* testekode
+/* skjelettkode
 div:hover {
     border-color: orange;
 }
