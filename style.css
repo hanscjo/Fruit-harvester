@@ -45,7 +45,7 @@ div {
 
 .feedback {
     animation-name: flash;
-    animation-duration: 0.4s;
+    animation-duration: 0.2s;
     animation-iteration-count: 1;
 }
 

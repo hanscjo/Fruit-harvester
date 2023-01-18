@@ -30,7 +30,7 @@ function fruktFeedback(frukt) {
         }
     }
 
-    setTimeout(fjernFeedbackClass, 400, "fruktMelding"); //Dette er nødvendig for å få animasjonen til å kjøre neste gang den trykkes 
+    setTimeout(fjernFeedbackClass, 200, "fruktMelding"); //Dette er nødvendig for å få animasjonen til å kjøre neste gang den trykkes 
 }
 
 function tellFrukt(frukt) { //Dette er altså bare "midlertidig telling" for å se hvor mange av samme frukt som blir lagt inn av gangen
