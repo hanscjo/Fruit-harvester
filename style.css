@@ -63,8 +63,17 @@ button:active {
     border: 3px solid firebrick;
 }
 
+.frukt {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 8px;
+}
+
 /* Eple */
-#eple:hover {
+#eple {
+    background-color: limegreen;
+}
+/*#eple:hover {
     border: 2px solid green;
 }
 
@@ -73,6 +82,11 @@ button:active {
 }
 
 /* Pære */
+#pære {
+    background-color: chartreuse;
+}
+
+/*
 #pære:hover {
     border: 2px solid greenyellow;
 }
@@ -82,6 +96,11 @@ button:active {
 }
 
 /* Banan */
+#banan {
+    background-color: yellow;
+}
+
+/*
 #banan:hover {
     border: 2px solid yellow;
 }
