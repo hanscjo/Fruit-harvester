@@ -40,6 +40,10 @@ div {
     animation-iteration-count: 1;
 }
 
+button {
+    margin: 6px;
+}
+
 /* skjelettkode
 div:hover {
     border-color: orange;

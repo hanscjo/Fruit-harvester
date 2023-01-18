@@ -19,7 +19,7 @@ function fruktFeedback(frukt) {
         oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}r`)
     }
 
-    setTimeout(fjernFeedbackClass, 400, "fruktMelding");*/ /*Dette er nødvendig for å få animasjonen til å kjøre flere ganger*/ 
+    setTimeout(fjernFeedbackClass, 400, "fruktMelding");*/ /*Dette er nødvendig for å få animasjonen til å kjøre neste gang den trykkes*/ 
 /*}
 
 function tellFrukt(frukt) {
