@@ -29,7 +29,8 @@ function fruktFeedback(frukt) {
             oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}r`)
         }
     }
-
+    
+    oppdaterFrukt(frukt);    
     setTimeout(fjernFeedbackClass, 200, "fruktMelding"); //Dette er nødvendig for å få animasjonen til å kjøre neste gang den trykkes 
 }
 
@@ -45,6 +46,20 @@ function tellFrukt(frukt) { //Dette er altså bare "midlertidig telling" for å 
 
 function oppdaterFruktMelding(tekst) {
     document.getElementById("fruktMelding").innerHTML = tekst;
+}
+
+function oppdaterFrukt(frukt) {
+    switch (frukt) {
+        case "eple":
+            antallFrukt(epler);
+            break;
+        case "pære":
+            antallFrukt(pærer);
+            break;
+        case "banan":
+            antallFrukt(bananer);
+            break;
+    }
 }
 
 function fjernFeedbackClass(element) {

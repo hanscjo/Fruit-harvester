@@ -19,5 +19,7 @@ function empty() {
     epler = 0;
     pærer = 0;
     bananer = 0;
+    currentFruit = '';
     antallFrukt(0);
+    oppdaterFruktMelding("Velg en frukt!");   
 }

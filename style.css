@@ -55,11 +55,39 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     border: 2px solid red;
 }
 
 button:active {
     border: 3px solid firebrick;
+}
+
+/* Eple */
+#eple:hover {
+    border: 2px solid green;
+}
+
+#eple:active {
+    border: 4px solid green;
+}
+
+/* Pære */
+#pære:hover {
+    border: 2px solid greenyellow;
+}
+
+#pære:active {
+    border: 4px solid greenyellow;
+}
+
+/* Banan */
+#banan:hover {
+    border: 2px solid yellow;
+}
+
+#banan:active {
+    border: 4px solid yellow;
 }
 
 /* skjelettkode
