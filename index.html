@@ -8,10 +8,12 @@
 </head>
 <body>
     <h1>Velkommen til frukthagen!</h1>
-    <button id="open/close">Åpne</button>
+    <button onclick="ShowAndHide()">Åpnelukk fruktsekk</button>
     <button id="empty" onclick="empty()">Tøm sekken</button>
+    <section id="bob1">
     <p>Frukt antall er <span id="viseFrukt"></span></p>
     <div id="vise"><button onclick="viseHide()">Se frukt valg!</button></div>
+    </section>
     <br>
     <div id="fruktMelding">Velg en frukt!</div> <!-- tenker å oppdatere denne teksten gjennom "legg-til-frukt" funksjonen når den står klart -HC-->
     <button id="eple" onclick="leggTilFrukt('eple')">Eple</button>
@@ -22,3 +24,4 @@
 <script src="main.js"></script>
 <script src="sekk.js"></script>
 <script src="pluss.js"></script>
+<script src="kristianjava.js"></script>
