@@ -7,6 +7,7 @@
 //     <button onclick="antallFrukt(pærer)">pærer</button>
 //     <button onclick="antallFrukt(bananer)">bananer</button>`;
 
+
 // }
 function antallFrukt(fruktNavn) {
 
