@@ -34,6 +34,10 @@ div {
     font-weight: bold;
 }
 
+#empty {
+    margin-left: 96px;
+}
+
 @keyframes flash {
     from {background-color: grey;}
     to {background-color: white;}
@@ -55,7 +59,7 @@ button:hover {
 }
 
 button:active {
-    border: 3px solid red;
+    border: 3px solid firebrick;
 }
 
 /* skjelettkode

@@ -14,3 +14,10 @@ function antallFrukt(fruktNavn) {
 
     document.getElementById('viseFrukt').innerHTML = fruktNavn;
 }
+
+function empty() {
+    epler = 0;
+    pærer = 0;
+    bananer = 0;
+    antallFrukt(0);
+}
