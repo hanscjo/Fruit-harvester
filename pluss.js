@@ -22,7 +22,12 @@ function fruktFeedback(frukt) {
         oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}`);
     }
     else {
-        oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}r`)
+        if (frukt == "banan") {
+            oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}er`)
+        }
+        else {
+            oppdaterFruktMelding(`Du la oppi ${countOfCurrentFruit} ${frukt}r`)
+        }
     }
 
     setTimeout(fjernFeedbackClass, 400, "fruktMelding"); //Dette er nødvendig for å få animasjonen til å kjøre neste gang den trykkes 
