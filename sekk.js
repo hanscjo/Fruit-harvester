@@ -13,6 +13,9 @@ function antallFrukt(fruktNavn) {
 
 
     document.getElementById('viseFrukt').innerHTML = epler+pærer+bananer;
+    document.getElementById('apple').innerHTML = epler;
+    document.getElementById('peach').innerHTML = pærer;
+    document.getElementById('banana').innerHTML = bananer;
 }
 
 function empty() {
