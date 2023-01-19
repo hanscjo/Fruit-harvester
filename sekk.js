@@ -9,7 +9,7 @@
 
 
 // }
-function antallFrukt(fruktNavn) {
+function antallFrukt() {
 
 
 
@@ -20,13 +20,11 @@ function antallFrukt(fruktNavn) {
 }
 
 function empty() {
-    fjernFeedbackClass("bob1");
-    settFeedbackClass("bob1");
     epler = 0;
     pærer = 0;
     bananer = 0;
     currentFruit = '';
-    antallFrukt(0);
     oppdaterFruktMelding("Velg en frukt!"); 
-    setTimeout(fjernFeedbackClass, 200, "bob1");  
+    antallFrukt();
+    animerFeedback("bob1");
 }
