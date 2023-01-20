@@ -9,6 +9,13 @@
 
 
 // }
+function blinkText(){
+    var f = document.getElementById('blinkingText');
+  setInterval(function() {
+    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+  }, 500);
+}
+
 function antallFrukt() {
 
 

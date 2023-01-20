@@ -27,6 +27,14 @@ div {
     box-shadow: 0px 0px;
 }
 
+img {
+    margin: 6px;
+    border: 2px solid black;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
 #fruktMelding {
     border: 0;
     border-radius: 0;
@@ -36,6 +44,13 @@ div {
 
 #empty {
     margin-left: 96px;
+}
+
+#blinkingText {
+    width: 170px;
+    text-align: center;
+    margin-left: 75px;
+
 }
 
 @keyframes flash {
@@ -63,6 +78,7 @@ button:active {
     border: 3px solid firebrick;
 }
 
+/*
 .frukt {
     font-weight: bold;
     font-size: 28px;
@@ -70,7 +86,7 @@ button:active {
 }
 
 /* Eple */
-#eple {
+/*#eple {
     background-color: limegreen;
 }
 /*#eple:hover {
@@ -82,7 +98,7 @@ button:active {
 }
 
 /* Pære */
-#pære {
+/*#pære {
     background-color: chartreuse;
 }
 
@@ -96,7 +112,7 @@ button:active {
 }
 
 /* Banan */
-#banan {
+/*#banan {
     background-color: yellow;
 }
 

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body>
+<body onload="blinkText()">
     <h1>Velkommen til frukthagen!</h1>
     <button onclick="ShowAndHide()">Åpnelukk fruktsekk</button>
     <button id="empty" onclick="empty()">Tøm sekken</button>
@@ -15,10 +15,11 @@
     <!-- <div id="vise"><button onclick="viseHide()">Se frukt valg!</button></div> -->
     </section>
     <br>
+    <div style="color: yellow; background-color: lightblue; font-size: x-large;" id="blinkingText">Trykk på bilde</div> 
+    <img id="eple" class="frukt" onclick="leggTilFrukt('eple')" src="img/eple.gif"/>
+    <img id="pære" class="frukt" onclick="leggTilFrukt('pære')" src="img/pære.gif"/>
+    <img id="banan" class="frukt" onclick="leggTilFrukt('banan')" src="img/banan.gif"/>
     <div id="fruktMelding">Velg en frukt!</div>
-    <button id="eple" class="frukt" onclick="leggTilFrukt('eple')">Eple</button>
-    <button id="pære" class="frukt" onclick="leggTilFrukt('pære')">Pære</button>
-    <button id="banan" class="frukt" onclick="leggTilFrukt('banan')">Banan</button>
 </body>
 </html>
 <script src="main.js"></script>
